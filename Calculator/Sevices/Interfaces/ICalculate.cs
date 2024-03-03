@@ -7,5 +7,7 @@
         double Add(double firstNumber, double secondNumber);
 
         double Substraction(double firstNumber, double secondNumber);
+
+        double Multiplication(double firstNumber, double secondNumber);
     }
 }

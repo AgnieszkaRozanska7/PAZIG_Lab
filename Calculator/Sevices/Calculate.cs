@@ -18,5 +18,10 @@ namespace Calculator.Sevices.Interfaces
         {
             return firstNumber - secondNumber;
         }
+
+        public double Multiplication(double firstNumber, double secondNumber)
+        {
+            return firstNumber * secondNumber;
+        }
     }
 }
