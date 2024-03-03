@@ -11,6 +11,9 @@ namespace Calculator
 
             double addResult = calculate.Add(5, 7);
             calculate.DispalyResult(addResult);
+
+            double substractionResult = calculate.Substraction(33, 11);
+            calculate.DispalyResult(substractionResult);    
             Console.ReadLine();
         }
     }
