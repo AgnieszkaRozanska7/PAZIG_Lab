@@ -13,5 +13,10 @@ namespace Calculator.Sevices.Interfaces
         {
             Console.WriteLine($"Result: {result}");
         }
+
+        public double Multiplication(double firstNumber, double secondNumber)
+        {
+            return firstNumber * secondNumber;
+        }
     }
 }

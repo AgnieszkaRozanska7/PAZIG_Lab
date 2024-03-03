@@ -11,6 +11,9 @@ namespace Calculator
 
             double addResult = calculate.Add(5, 7);
             calculate.DispalyResult(addResult);
+
+            double multipilactionResult = calculate.Multiplication(5, 7);
+            calculate.DispalyResult(multipilactionResult);
             Console.ReadLine();
         }
     }
