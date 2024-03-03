@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Calculator.Sevices.Interfaces;
+using System;
 
 namespace Calculator
 {
@@ -6,7 +7,11 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Calculate calculate = new Calculate();
+
+            double addResult = calculate.Add(5, 7);
+            calculate.DispalyResult(addResult);
+            Console.ReadLine();
         }
     }
 }
