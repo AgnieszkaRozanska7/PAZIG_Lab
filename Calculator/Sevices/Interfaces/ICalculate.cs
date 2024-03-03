@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Calculator.Sevices.Interfaces
+﻿namespace Calculator.Sevices.Interfaces
 {
     internal interface ICalculate
     {
+        void DispalyResult(double result);
+
+        double Add(double firstNumber, double secondNumber);
     }
 }
