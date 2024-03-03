@@ -9,6 +9,7 @@ namespace Calculator
         {
             Calculate calculate = new Calculate();
 
+            // Add comment - test
             double addResult = calculate.Add(5, 7);
             calculate.DispalyResult(addResult);
 
